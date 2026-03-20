@@ -26,9 +26,9 @@ public class AppStud {
 		//
 		//Arrays.sort(students, new Student.ByDestName());
 		//Arrays.sort(students, new Student().new ByAge());
-		Arrays.sort(students, new Student.ByNameAndAge());
+		//Arrays.sort(students, new Student.ByNameAndAge());
 		//
-		/*
+		// /*
 		Arrays.sort(students, new Comparator<Student>() {
 				@Override
 				public int compare(Student st1, Student st2) {
@@ -37,7 +37,7 @@ public class AppStud {
 				}
 			}
 		);
-		*/
+		// */
 		//
 		//List<Student> students2 = Arrays.asList(students);
 		//Collections.sort(students2);
