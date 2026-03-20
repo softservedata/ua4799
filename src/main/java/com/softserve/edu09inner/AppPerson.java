@@ -8,7 +8,7 @@ public class AppPerson {
 		System.out.println(p1);
 		System.out.println(p2);
 		*/
-		// /*-
+		/*-
 		//Person p3 = new Person();
 		Person p3 = new Person("Petro", "Petrov", 30);
 		System.out.println("1. p3 = " + p3);
@@ -16,11 +16,11 @@ public class AppPerson {
 		Person.FullName fn = p3.new FullName("Ivan", "Ivanov");
 		System.out.println("2. p3 = " + p3);
 		System.out.println("fn = " + fn);
-		// */
-		/*-
-		Person p4 = new Person();
-		p4.run();
-		System.out.println("p4 = " + p4);
 		*/
+		// /*-
+		Person p4 = new Person();
+		p4.run1();
+		System.out.println("p4 = " + p4);
+		// */
 	}
 }        

@@ -57,7 +57,7 @@ public class Person {
 		return "Person [fullName=" + fullName + ", age=" + age + "]";
 	}
 
-	public void run() {
+	public void run1() {
 		//final int bound = 100;
 		int bound = 100; // effective final
 		//
@@ -85,5 +85,6 @@ public class Person {
 		ag.setRandomAge();
 		ag.printRandomNumber();
 		agen = ag;
+		//bound = 120; // Compile Error
 	}
 } 
